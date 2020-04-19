@@ -20,10 +20,6 @@
   # 3) CRS Class : Coordiate Reference System Class
   # - 좌표계는 100여종이 넘는다.
 
-
-  pp 
-
-
 # import lib
 library(maptools)
 library(rgdal)
@@ -37,7 +33,6 @@ lng = c(126.9395002, 126.9514850)
 ll = data.frame(longtitude = long, latitude = lat)
 
 Line(corrds)
-
 
 library(maptools)
 library(raster)
