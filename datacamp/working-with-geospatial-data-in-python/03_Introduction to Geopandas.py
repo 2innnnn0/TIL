@@ -16,3 +16,5 @@ contries.head()
 
 # contries에서 
 contries.plot()
+
+
