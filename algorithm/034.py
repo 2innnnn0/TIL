@@ -9,14 +9,10 @@ l
 l = [int(i) for i in l]
 l
 
-
 # 역순
 # sorted(l, reverse=True)
-
 
 if l != sorted(l):
     print('NO')
 else:
     print('YES')
-
-
