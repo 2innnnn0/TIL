@@ -76,7 +76,7 @@ class SendSpreadsheet:
         #한번에 출력할 행과 열 크기를 저장
         row_length = len(df.index)
         col_length = len(df.columns)
-        
+        x
         #내용이 많아 분할해서 자료를 넣어야 함(열이 길어 한번에 200행 씩 삽입)
         #spreadsheet에 반복해서 데이터 프레임을 분할 저장할 횟수를 설정
         max_index = math.ceil(row_length / row_split)
