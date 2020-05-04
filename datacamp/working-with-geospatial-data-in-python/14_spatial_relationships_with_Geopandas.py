@@ -22,3 +22,5 @@ cities[cities.within(france)]
 within
 contains
 intersects
+
+https://shapely.readthedocs.io/en/latest/ 참고하기
