@@ -14,3 +14,13 @@ nums[0:3]
 del nums[3:5]
 nums
 
+# sol3 : pop
+nums.pop()
+nums.pop()
+print(nums)
+
+
+# sol4 : remove
+nums.remove(400)
+nums.remove(500)
+print(nums)
