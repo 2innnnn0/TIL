@@ -3,4 +3,17 @@
 # 나머지 빈 부분에는 '='을 채워놓기
 
 s = 'hi'
-print("{0:<50}".format(s)+'!!')
+
+print('{0}'.format(s))
+print('{0:<50}'.format(s)+'!!') # 왼쪽 정렬
+print('{0:>50}'.format(s)+'!!') # 오른쪽 정렬
+print('{0:^50}'.format(s)+'!!') # 중앙정렬
+print('{0:!^50}'.format(s)+'!!') # 중앙정렬. 공백을 ! 으로 채우기
+print('{0:!<50}'.format(s)+'!!') # 왼쪽 정렬. 공백을 !
+print('{0:!>50}'.format(s)+'!!') # 오른쪽 정렬. 공백을 !
+print('{0:0.4f}'.format(3.14195888))
+
+# SOL. 
+print('{0:=^50}'.format(s)) # 
+s = ('='*((50-len(s))//2)) + s + ('='*(50-((50-len(s))//2)-len(s)))
+print(s)
